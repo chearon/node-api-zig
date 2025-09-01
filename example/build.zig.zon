@@ -1,0 +1,13 @@
+.{
+    .name = .example_callbacks,
+    .minimum_zig_version = "0.15.1",
+    .fingerprint = 0xf3701a8ea8af1849,
+    .version = "0.0.0",
+    .paths = .{""},
+    .dependencies = .{
+        .node_api = .{
+            // change this with a URL to github.com/chearon/node-api-zig
+            .path = ".."
+        },
+    }
+}
